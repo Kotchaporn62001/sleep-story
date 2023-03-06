@@ -5,7 +5,6 @@ body{
 }
 
 .App-header{
-  
   margin: 0 auto;
 }
 .bar{
@@ -43,7 +42,7 @@ body{
   text-decoration: none;
   color: black;
   font-size: 16px;
-  
+
 }
 .container{
     max-width: 970px;
@@ -66,4 +65,27 @@ body{
  
     font-size:36px;
     font-weight: 900;
+}
+
+.fic_area{
+    width: 40%;
+    float: left;
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px 20px;
+}
+.fic_area img{
+    float: left;
+    margin: 10px ;
+}
+.fic_area h2{
+    font-size: 16px;
+}
+.fic_area li a {
+  
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+
+
 }
