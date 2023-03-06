@@ -1,24 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='logo'>
+           <h1>BEDTIME story</h1>
+        </div>
+        <div className='bar'>
+        <ul className='menu'>
+          <li>
+            <a href ="# ">หน้าหลัก</a>
+          </li>
+          <li>
+            <a href ="# ">แต่งนิยาย</a>
+          </li>
+          <li>
+            <a href ="./signin ">เข้าระบบ</a>
+          </li>
+        </ul>
+       </div> 
       </header>
+      <div className="home" >
+        <div className="container">
+            <div className="home_con">
+                <div className="home_text">
+                    <h1>นิทานก่อนนอน</h1>
+                </div>
+                
+            </div>
+        </div>
+
+      </div>
+
     </div>
+    
+  
   );
 }
 
