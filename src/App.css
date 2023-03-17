@@ -37,7 +37,7 @@ body{
   color: #fff;
   text-align: center;
 }
-.menu li a {
+.menu li Link {
   
   text-decoration: none;
   color: black;

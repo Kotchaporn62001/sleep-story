@@ -1,6 +1,10 @@
 import './App.css';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Routing from './router/rou';
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -10,13 +14,13 @@ function App() {
         <div className='bar'>
         <ul className='menu'>
           <li>
-            <a href ="# ">หน้าหลัก</a>
+          <Link to="/ ">หน้าหลัก</Link>
           </li>
           <li>
-            <a href ="# ">แต่งนิยาย</a>
+          <Link to="/write ">แต่งนิยาย</Link>
           </li>
           <li>
-            <a href = "# " >เข้าระบบ</a>
+          <Link to="/signin ">เข้าระบบ</Link>
           </li>
         </ul>
        </div> 
@@ -48,7 +52,7 @@ function App() {
                 <img src="img/Aesop_620401_01.jpg" alt="" width="100" height="100"/>
                 <h2>เด็กเลี้ยงแกะ</h2>
                 <li>
-                  <a href='# '>เช้าตรู่วันหนึ่ง ลูกแกะหลงฝูงยืนดื่มน้ำอยู่บริเวณริมฝั่งลำธารในป่า ...</a>
+                  <a href='# '>ณ หมู่บ้านชายป่า มีเด็กเลี้ยงแกะคนหนึ่งชอบพูดโกหกเป็นประจำ...</a>
                 </li>
             </div>
         </div>
@@ -59,16 +63,17 @@ function App() {
                 <img src="img/Aesop_620401_01.jpg" alt="" width="100" height="100"/>
                 <h2>หนูน้อยหมวกแดง</h2>
                 <li>
-                  <a href='# '>เช้าตรู่วันหนึ่ง ลูกแกะหลงฝูงยืนดื่มน้ำอยู่บริเวณริมฝั่งลำธารในป่า ...</a>
+                  <a href='# '>กาลครั้งหนึ่ง ณ หมู่บ้านที่แสนอบอุ่น มีเด็กหญิงหน้าตาน่ารักนั่ง ...</a>
                 </li>
             </div>
         </div>
     </section>
+    <Routing/>
 
     </div>
     
   
   );
+  }
 }
-
-export default App;
+  export default App;
