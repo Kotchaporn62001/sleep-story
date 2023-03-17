@@ -1,3 +1,8 @@
+นางสาว กพชร ยิ่งเภตรา 6210110001
+ทำเว็ปเกี่ยวกับนิทานก่อนนอน ที่สามารถอ่านได้โดยไม่มีการเข้าระบบ และการอ่าน เขียนได้เมื่อเข้าสู่ระบบ
+โดยหน้าหหลักจะมีนิทานให้เลือกเข้าอ่าน ใช้App.js ในการเขียนและ cssในการตกแต่ง
+ในหน้า login จะใช้ useState เข้ามาช่วย
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
